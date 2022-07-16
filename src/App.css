@@ -1,0 +1,27 @@
+html {
+  background-image: url(https://i.ibb.co/L9LYB0N/fondo-morado-abstracto-degradado-52683-74024.webp);
+  margin-top: 0;
+  padding-top: 0;
+}
+
+.input-card{
+  background-color: #F6F6FF;
+  padding: 50px;
+  margin-left: 150px;
+  margin-right: 150px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  border-radius: 20px;
+  text-align: center;
+}
+
+.input-list{
+  background-color: #F6F6FF;
+  padding: 10px;
+  margin-left: 400px;
+  margin-right: 400px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  border-radius: 80px;
+  text-align: center;
+}
