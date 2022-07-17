@@ -87,7 +87,7 @@ const UsersList = ({ addUsers, userSelected, updateUsers, deselectUsers }) => {
                 </div>
                 <div>
                     <label htmlFor="Birthday">Birthday</label>
-                    <input type="Birthday" id='Birthday'
+                    <input type="date" id='Birthday'
                     onChange={e => setBirthday(e.target.value)} 
                     value={birthday}/>
                 </div>

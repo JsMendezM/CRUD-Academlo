@@ -3,7 +3,31 @@ html {
   margin-top: 0;
   padding-top: 0;
 }
+@media only screen and (min-width: 1px) and (max-width: 765px){
+  .input-card{
+    background-color: #F6F6FF;
+    padding: 50px;
+    margin-left: 80px;
+    margin-right: 80px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    border-radius: 20px;
+    text-align: center;
+  }
+  
+  .input-list{
+    background-color: #F6F6FF;
+    padding: 10px;
+    margin-left: 80px;
+    margin-right: 80px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    border-radius: 80px;
+    text-align: center;
+}
+}
 
+@media only screen and (min-width: 766px) and (max-width: 1500px){
 .input-card{
   background-color: #F6F6FF;
   padding: 50px;
@@ -18,10 +42,11 @@ html {
 .input-list{
   background-color: #F6F6FF;
   padding: 10px;
-  margin-left: 400px;
-  margin-right: 400px;
+  margin-left: 200px;
+  margin-right: 200px;
   margin-top: 20px;
   margin-bottom: 10px;
   border-radius: 80px;
   text-align: center;
+}
 }
